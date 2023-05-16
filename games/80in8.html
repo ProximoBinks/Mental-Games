@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>80in8 | Mental Games</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Games to practice mental maths" />
+    <link rel="stylesheet" type="text/css" href="80style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="all.html">Games</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>80in8</h1>
+    <div class="container">
+        <button id="startBtn" onclick="startGame()">Start</button>
+
+        <div id="timer">8:00</div>
+
+        <div id="questionContainer" class="question">
+            <!-- Question will be inserted here -->
+        </div>
+
+        <div id="answersContainer" class="answers">
+            <!-- Answers will be inserted here -->
+        </div>
+
+        <button onclick="restartGame()">Restart</button>
+    </div>
+
+    <script src="80script.js"></script>
+</body>
+
+</html>

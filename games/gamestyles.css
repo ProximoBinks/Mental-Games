@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Oxygen', sans-serif; /* Apply Oxygen font to the entire document */
+  text-align: center;
+}
+
+header {
+  background-color: #f1f1f1;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  text-align: center; /* Center the navigation bar */
+}
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex; /* Use flexbox to create side-by-side buttons */
+  justify-content: center; /* Center the buttons horizontally */
+}
+
+#navbar li {
+  margin: 0 5px; /* Add a small gap between the buttons */
+}
+
+#navbar li a {
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#navbar li a:hover {
+  background-color: #ddd;
+}
+
+#content {
+  margin-top: 50px; /* Add margin to prevent content from being hidden behind the sticky navbar */
+  text-align: center; /* Center the body text */
+}
+
+h1 {
+  text-align: center;
+}
+
+.games-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.game {
+  width: 30%;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.game h2 {
+  font-size: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.game p {
+  font-size: 14px;
+}
+
+.game img {
+  max-width: 100%;
+  height: auto;
+}
+
+.games-container a{
+  text-decoration: none;
+  color: black;
+}
